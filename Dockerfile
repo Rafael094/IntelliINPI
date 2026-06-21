@@ -5,9 +5,9 @@ COPY . .
 
 RUN dotnet restore IntelliINPI.sln
 
-RUN dotnet publish src/IntelliINPI.Api/IntelliINPI.Api.csproj `
-    -c Release `
-    -o /app/publish `
+RUN dotnet publish src/IntelliINPI.Api/IntelliINPI.Api.csproj \
+    -c Release \
+    -o /app/publish \
     --no-restore
 
 FROM mcr.microsoft.com/dotnet/aspnet:8.0
