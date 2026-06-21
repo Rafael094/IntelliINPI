@@ -1,0 +1,34 @@
+bin/
+obj/
+*.user
+*.suo
+.vs/
+.idea/
+TestResults/
+.tmp/
+.agents/
+.codex/
+
+# Local/runtime data
+data/
+src/IntelliINPI.Api/data/
+*.log
+
+# Local secrets
+.env
+.env.*
+!.env.example
+frontend/.env
+frontend/.env.*
+!frontend/.env.example
+src/IntelliINPI.Api/appsettings.Production.json
+
+# Frontend build and dependencies
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/.vercel/
+
+# OS/editor
+.DS_Store
+Thumbs.db
