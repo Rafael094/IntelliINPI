@@ -32,7 +32,7 @@ const navigationGroups = [
     label: "Geral",
     items: [
       { href: "/home", label: "Início", icon: Home },
-      { href: "/ip-assets", label: "Portfolio de PI", icon: ClipboardList }
+      // Portfolio de PI oculto temporariamente; a rota permanece disponivel.
     ]
   },
   {
